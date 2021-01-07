@@ -1,0 +1,12 @@
+:root {
+    --silver: rgb(184, 213, 239);
+    --silverMist: rgb(184, 213, 239, 0.7);
+    --purple: rgb(132, 48, 108);
+    --purpleMist: rgb(132, 48, 108, 0.8);
+    --green: rgb(79, 153, 66);
+    --greenMist: rgb(79, 153, 66, 0.8);
+    --grey: rgb(46, 54, 64);
+    --greyMist: rgb(46, 54, 64, 0.8);
+    --darkGrey: rgb(38, 44, 37);
+    --darkGreyMist: rgb(38, 44, 37, 0.8); 
+}    
