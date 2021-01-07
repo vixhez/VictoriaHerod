@@ -46,7 +46,7 @@ h1 {
     margin: 0;
     padding: 0;
     font-size: 10vw;
-    text-shadow: 5px 5px var(--purpleMist);
+    text-shadow: 5px 5px var(--purple);
 }
 
 .skills h2 {
@@ -58,4 +58,15 @@ h1 {
     padding: 0;
     font-size: 10vw;
     text-shadow: 5px 5px var(--greenMist);
+}
+
+.projects h2 {
+    text-align: center;
+    font-weight: lighter;
+    color: var(--green);
+    font-family: 'Cameo', 'Georgia';
+    margin: 0;
+    padding: 0;
+    font-size: 10vw;
+    text-shadow: 5px 5px var(--grey);
 }

@@ -18,6 +18,7 @@
 
 .skillsContent h6 {
     font-family: 'Pixels', 'Georgia';
+    font-weight: lighter;
     font-size: 4rem;
     line-height: 50%;
     color: var(--silver);

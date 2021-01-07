@@ -1,5 +1,5 @@
 .projects {
-    background-color: var(--darkGrey);
+    background-color: var(--purpleMist);
     width: 98vw;
     height: 97.5vh;
     position: relative;
@@ -10,17 +10,29 @@
 
 .projectsContent {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     justify-content: center;
     align-content: center;
     margin: 3rem;
 }
 
-.projectsContent h6 {
+.projects .projectsContent .project {
+    width: 25%;
+    margin: 1rem;
+    padding: 0.8rem;
+    border-left: 2px solid var(--green);
+    border-top: 2px solid var(--green);
+    border-top-left-radius: 6%;
+}
+
+.projects .projectsContent .project p {
+    font-size: 0.6rem;
+    text-align: justify;
+}
+
+.projects .projectsContent .project h6 {
     font-family: 'Pixels', 'Georgia';
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 50%;
-    color: var(--silver);
-    margin: 2rem;
-    text-align: center;
+    margin: 0;
 }

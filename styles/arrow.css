@@ -16,6 +16,15 @@
     text-decoration: none;
 }
 
+.projects .arrow {
+    position: absolute;
+	right: 0px;
+	font-size: 5rem;
+	margin: 3% 1%;
+    color: var(--green);
+    text-decoration: none;
+}
+
 .about .arrow a:link,
 .about .arrow a:visited {
     color: var(--darkGrey);
@@ -25,6 +34,12 @@
 .skills .arrow a:link,
 .skills .arrow a:visited {
     color: var(--purple);
+    text-decoration: none;
+}
+
+.projects .arrow a:link,
+.projects .arrow a:visited {
+    color: var(--green);
     text-decoration: none;
 }
 
