@@ -1,4 +1,4 @@
-.skills {
+.projects {
     background-color: var(--darkGrey);
     width: 98vw;
     height: 97.5vh;
@@ -8,7 +8,7 @@
     margin: 0;
 }
 
-.skillsContent {
+.projectsContent {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -16,7 +16,7 @@
     margin: 3rem;
 }
 
-.skillsContent h6 {
+.projectsContent h6 {
     font-family: 'Pixels', 'Georgia';
     font-size: 4rem;
     line-height: 50%;
