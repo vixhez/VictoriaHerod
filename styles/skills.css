@@ -1,0 +1,17 @@
+.skills {
+    background-color: var(--darkGrey);
+    width: 98vw;
+    height: 97.5vh;
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.skillsContent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 3rem;
+}

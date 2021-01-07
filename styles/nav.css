@@ -10,11 +10,20 @@ nav .textLinks {
     flex-flow: row wrap;
     height: 100%;
     padding-left: 0.5rem;
+    margin-top: 3rem;
 }
 
 nav .textLinks li {
+    list-style: none;
+}
+
+nav .textLinks li a:link {
+    text-decoration: none;
+}
+
+nav .textLinks li a {
     margin: 1.4rem 1rem 1rem 1rem;
-    padding: 0.8rem;
+    padding: 0 0.5rem 0.5rem 0.5rem;
     list-style: none;
     font-size: 5vw;
     line-height: 0%;
@@ -24,7 +33,7 @@ nav .textLinks li {
     font-family: 'Pixels', 'Trebuchet MS';
 }
 
-nav .textLinks li:hover {
+nav .textLinks li a:hover {
     background-color: var(--purple);
 }
 

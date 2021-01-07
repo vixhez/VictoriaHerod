@@ -4,9 +4,13 @@
     --purple: rgb(132, 48, 108);
     --purpleMist: rgb(132, 48, 108, 0.8);
     --green: rgb(79, 153, 66);
-    --greenMist: rgb(79, 153, 66, 0.8);
+    --greenMist: rgb(79, 153, 66, 0.6);
     --grey: rgb(46, 54, 64);
-    --greyMist: rgb(46, 54, 64, 0.8);
+    --greyMist: rgb(46, 54, 64, 0.6);
     --darkGrey: rgb(38, 44, 37);
     --darkGreyMist: rgb(38, 44, 37, 0.8); 
 }    
+
+html {
+    scroll-behavior: smooth;
+  }

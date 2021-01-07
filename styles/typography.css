@@ -37,3 +37,25 @@ h1 {
     margin: 0;
     padding: 0;
 }
+
+.about h2 {
+    text-align: center;
+    font-weight: lighter;
+    color: var(--darkGrey);
+    font-family: 'Cameo', 'Georgia';
+    margin: 0;
+    padding: 0;
+    font-size: 10vw;
+    text-shadow: 5px 5px var(--purpleMist);
+}
+
+.skills h2 {
+    text-align: center;
+    font-weight: lighter;
+    color: var(--purple);
+    font-family: 'Cameo', 'Georgia';
+    margin: 0;
+    padding: 0;
+    font-size: 10vw;
+    text-shadow: 5px 5px var(--greenMist);
+}

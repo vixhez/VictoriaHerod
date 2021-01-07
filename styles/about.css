@@ -1,0 +1,30 @@
+.about {
+    background-color: var(--greenMist);
+    width: 98vw;
+    height: 97.5vh;
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.aboutContent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 3rem;
+}
+
+.aboutBio {
+    font-size: 0.85rem;
+    text-align: justify;
+    width: 50%;
+    padding-left: 1rem;
+    color: var(--darkGrey);
+    align-self: center;
+}
+
+.aboutImage {
+    align-self: center;
+}
