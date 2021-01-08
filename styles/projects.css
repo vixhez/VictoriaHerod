@@ -27,11 +27,3 @@
     border-top: 2px solid var(--green);
     border-top-left-radius: 6%;
 }
-
-.projects .projectsContent .project h6 {
-    font-family: 'Pixels', 'Georgia';
-    font-size: 3rem;
-    line-height: 50%;
-    margin: 0;
-    text-align: center;
-}

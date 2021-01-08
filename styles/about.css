@@ -18,29 +18,3 @@
     align-content: center;
     margin: 3rem;
 }
-
-.aboutBio {
-    font-size: 0.85rem;
-    text-align: justify;
-    width: 50%;
-    padding-left: 1rem;
-    color: var(--darkGrey);
-    align-self: center;
-}
-
-.aboutBio a,
-.aboutBio a:link,
-.aboutBio a:visited {
-    text-decoration: none;
-    color: var(--purple);
-}
-
-.aboutBio a:hover {
-    background-color: var(--purple);
-    color: var(--darkGrey);
-    border-radius: 6%;
-}
-
-.aboutImage {
-    align-self: center;
-}

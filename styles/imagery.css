@@ -3,3 +3,7 @@
     height: 18rem;
     width: auto;
 }
+
+.aboutImage {
+    align-self: center;
+}

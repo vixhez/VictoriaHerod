@@ -50,6 +50,28 @@ h1 {
     text-shadow: 5px 5px var(--purple);
 }
 
+.aboutBio {
+    font-size: 0.85rem;
+    text-align: justify;
+    width: 50%;
+    padding-left: 1rem;
+    color: var(--darkGrey);
+    align-self: center;
+}
+
+.aboutBio a,
+.aboutBio a:link,
+.aboutBio a:visited {
+    text-decoration: none;
+    color: var(--purple);
+}
+
+.aboutBio a:hover {
+    background-color: var(--purple);
+    color: var(--darkGrey);
+    border-radius: 6%;
+}
+
 .skills h2 {
     text-align: center;
     font-weight: lighter;
@@ -61,6 +83,16 @@ h1 {
     text-shadow: 5px 5px var(--greenMist);
 }
 
+.skillsContent h6 {
+    font-family: 'Pixels', 'Georgia';
+    font-weight: lighter;
+    font-size: 4rem;
+    line-height: 50%;
+    color: var(--silver);
+    margin: 2rem;
+    text-align: center;
+}
+
 .projects h2 {
     text-align: center;
     font-weight: lighter;
@@ -70,6 +102,14 @@ h1 {
     padding: 0;
     font-size: 10vw;
     text-shadow: 5px 5px var(--grey);
+}
+
+.projects .projectsContent .project h6 {
+    font-family: 'Pixels', 'Georgia';
+    font-size: 3rem;
+    line-height: 50%;
+    margin: 0;
+    text-align: center;
 }
 
 .aboutBio .cvSentence {
