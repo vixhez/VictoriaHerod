@@ -1,7 +1,6 @@
 .projects {
     background-color: var(--purpleMist);
-    /* width: 98vw;
-    height: 97.5vh; */
+    min-height: 100vh;
     position: relative;
     display: block;
     padding: 0;
