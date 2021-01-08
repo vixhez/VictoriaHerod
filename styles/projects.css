@@ -1,7 +1,7 @@
 .projects {
     background-color: var(--purpleMist);
-    width: 98vw;
-    height: 97.5vh;
+    /* width: 98vw;
+    height: 97.5vh; */
     position: relative;
     display: block;
     padding: 0;
@@ -29,14 +29,10 @@
     border-top-left-radius: 6%;
 }
 
-.projects .projectsContent .project p {
-    font-size: 0.6rem;
-    text-align: justify;
-}
-
 .projects .projectsContent .project h6 {
     font-family: 'Pixels', 'Georgia';
     font-size: 3rem;
     line-height: 50%;
     margin: 0;
+    text-align: center;
 }
