@@ -7,6 +7,7 @@ nav {
 
 nav .textLinks {
     display: flex;
+    align-content: center;
     flex-flow: row wrap;
     height: 100%;
     padding-left: 0.5rem;
@@ -39,7 +40,9 @@ nav .textLinks li a:hover {
 
 nav .imageLinks {
     display: flex;
+    align-content: center;
     flex-flow: row wrap;
+    padding-left: 0;
 }
 
 nav .imageLinks li {

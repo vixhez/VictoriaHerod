@@ -1,0 +1,44 @@
+@media screen and (max-width: 800px) {
+    nav {
+        justify-content: center;
+    }
+    nav .textLinks li a {
+        font-size: 6vw;
+    }
+
+    .about h2 {
+        font-size: 15vw;
+    }
+
+    .aboutBio {
+        width: 90%;
+        padding-left: 0;
+    }
+
+    .skills h2 {
+        font-size: 15vw;
+    }
+
+    .skillsContent h6 {
+        font-size: 3rem;
+    }
+
+    .projects h2 {
+        font-size: 15vw;
+    }
+
+    .projects .projectsContent .project {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .about img {
+        height: 15rem;
+        width: auto;
+    }
+
+    .projects .projectsContent .project {
+        width: 70%;
+    }
+}
