@@ -23,7 +23,7 @@ nav .textLinks li a:link {
 }
 
 nav .textLinks li a {
-    margin: 1rem;
+    margin: 1.4rem 1rem 1rem 1rem;
     padding: 0 0.5rem 0.7rem 0.5rem;
     list-style: none;
     font-size: 4vw;
