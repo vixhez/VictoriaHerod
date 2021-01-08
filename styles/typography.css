@@ -70,3 +70,7 @@ h1 {
     font-size: 10vw;
     text-shadow: 5px 5px var(--grey);
 }
+
+.aboutBio .cvSentence {
+    font-size: 0.95rem;
+} 

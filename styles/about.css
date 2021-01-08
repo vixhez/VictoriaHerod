@@ -6,6 +6,10 @@
     display: block;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .aboutContent {
@@ -23,6 +27,19 @@
     padding-left: 1rem;
     color: var(--darkGrey);
     align-self: center;
+}
+
+.aboutBio a,
+.aboutBio a:link,
+.aboutBio a:visited {
+    text-decoration: none;
+    color: var(--purple);
+}
+
+.aboutBio a:hover {
+    background-color: var(--purple);
+    color: var(--darkGrey);
+    border-radius: 6%;
 }
 
 .aboutImage {
