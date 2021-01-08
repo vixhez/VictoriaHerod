@@ -7,3 +7,8 @@
 .aboutImage {
     align-self: center;
 }
+
+.project .projectImage {
+    width: 100%;
+    height: auto;
+}
