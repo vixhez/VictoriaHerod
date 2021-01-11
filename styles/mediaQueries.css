@@ -33,6 +33,19 @@
 }
 
 @media screen and (max-width: 450px) {
+    nav .textLinks li a {
+        margin: 1.4rem 0.5rem 0.5rem 0.5rem;
+        padding: 0 0.5rem 0.7rem 0.5rem;
+    }
+
+    h1 {
+        font-size: 22vw;
+    }
+
+    .tag {
+        font-size: 9vw;
+    }
+    
     .about img {
         height: 15rem;
         width: auto;
