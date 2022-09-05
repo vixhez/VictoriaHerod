@@ -27,7 +27,7 @@
         font-size: 15vw;
     }
 
-    .projects .projects__content .project {
+    .projects .projects__content .project__item {
         width: 40%;
     }
 }
@@ -51,7 +51,7 @@
         width: auto;
     }
 
-    .projects .projects__content .project {
+    .projects .projects__content .project__item {
         width: 70%;
     }
 }

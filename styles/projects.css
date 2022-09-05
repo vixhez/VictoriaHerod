@@ -19,7 +19,7 @@
     margin: 3rem;
 }
 
-.projects .projects__content .project {
+.projects .projects__content .project__item {
     width: 25%;
     margin: 1rem;
     padding: 0.8rem;
