@@ -5,7 +5,7 @@ nav {
     justify-content: space-between;
 }
 
-nav .textLinks {
+nav .nav__text-links {
     display: flex;
     align-content: center;
     flex-flow: row wrap;
@@ -14,15 +14,15 @@ nav .textLinks {
     margin-top: 3rem;
 }
 
-nav .textLinks li {
+nav .nav__text-links li {
     list-style: none;
 }
 
-nav .textLinks li a:link {
+nav .nav__text-links li a:link {
     text-decoration: none;
 }
 
-nav .textLinks li a {
+nav .nav__text-links li a {
     margin: 1.4rem 1rem 1rem 1rem;
     padding: 0 0.5rem 0.7rem 0.5rem;
     list-style: none;
@@ -35,11 +35,11 @@ nav .textLinks li a {
     vertical-align: middle;
 }
 
-nav .textLinks li a:hover {
+nav .nav__text-links li a:hover {
     background-color: var(--purple);
 }
 
-nav .imageLinks {
+nav .nav__image-links {
     display: flex;
     align-content: center;
     flex-flow: row wrap;
@@ -47,18 +47,18 @@ nav .imageLinks {
     margin-top: 1rem;
 }
 
-nav .imageLinks li {
+nav .nav__image-links li {
     margin: 0rem 0.5rem 0.5rem 0.5rem;
     padding: 1.5rem;
     list-style: none;
 }
 
-nav .imageLinks svg {
+nav .nav__image-links svg {
     height: 3rem;
     width: auto;
     opacity: 0.8;
 }
 
-nav .imageLinks svg:hover {
+nav .nav__image-links svg:hover {
     opacity: 1;
 }

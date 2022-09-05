@@ -11,7 +11,7 @@
     align-content: center;
 }
 
-.projectsContent {
+.projects__content {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -19,7 +19,7 @@
     margin: 3rem;
 }
 
-.projects .projectsContent .project {
+.projects .projects__content .project {
     width: 25%;
     margin: 1rem;
     padding: 0.8rem;

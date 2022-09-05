@@ -50,7 +50,7 @@ h1 {
     text-shadow: 5px 5px var(--purple);
 }
 
-.aboutBio {
+.about__bio {
     font-size: 0.85rem;
     text-align: justify;
     width: 50%;
@@ -59,14 +59,14 @@ h1 {
     align-self: center;
 }
 
-.aboutBio a,
-.aboutBio a:link,
-.aboutBio a:visited {
+.about__bio a,
+.about__bio a:link,
+.about__bio a:visited {
     text-decoration: none;
     color: var(--purple);
 }
 
-.aboutBio a:hover {
+.about__bio a:hover {
     background-color: var(--purple);
     color: var(--darkGrey);
     border-radius: 6%;
@@ -83,7 +83,7 @@ h1 {
     text-shadow: 5px 5px var(--greenMist);
 }
 
-.skillsContent h6 {
+.skills__content h6 {
     font-family: 'Pixels', 'Georgia';
     font-weight: lighter;
     font-size: 4rem;
@@ -104,7 +104,7 @@ h1 {
     text-shadow: 5px 5px var(--grey);
 }
 
-.projects .projectsContent .project h6 {
+.projects .projects__content .project__item h6 {
     font-family: 'Pixels', 'Georgia';
     font-size: 3rem;
     line-height: 50%;
@@ -112,11 +112,11 @@ h1 {
     text-align: center;
 }
 
-.aboutBio .cvSentence {
+.about__bio .cv__link {
     font-size: 0.95rem;
 }
 
-.projectCodeAndWebsite {
+.project__code-website {
     font-style: italic;
     margin-top: 0.5rem;
     display: flex;
@@ -125,8 +125,8 @@ h1 {
     border-bottom: 2px solid var(--green);
 }
 
-.projectCodeAndWebsite a,
-.projectCodeAndWebsite a:visited {
+.project__code-website a,
+.project__code-website a:visited {
     font-size: 0.9rem;
     text-decoration: none;
     color: var(--darkGrey);
@@ -134,18 +134,18 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
-.projectCodeAndWebsite a:hover {
+.project__code-website a:hover {
     background-color: var(--green);
     border-radius: 6%;
 }
 
-.project .projectDescription {
+.project__item .project__description {
     font-size: 0.85rem;
     text-align: justify;
 }
 
 
-.project .projectTechUsed {
+.project__item .project__tech {
     font-size: 0.7rem;
     text-align: justify;
     font-style: italic;

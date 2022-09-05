@@ -11,7 +11,7 @@
     align-content: center;
 }
 
-.aboutContent {
+.about__content {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;

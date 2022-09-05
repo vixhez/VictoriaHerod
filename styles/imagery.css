@@ -4,11 +4,11 @@
     width: auto;
 }
 
-.aboutImage {
+.about__image {
     align-self: center;
 }
 
-.project .projectImage {
+.project .project__image {
     width: 100%;
     height: auto;
 }

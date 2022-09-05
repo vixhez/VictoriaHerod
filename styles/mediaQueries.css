@@ -2,7 +2,7 @@
     nav {
         justify-content: center;
     }
-    nav .textLinks li a {
+    nav .nav__text-links li a {
         font-size: 3rem;
     }
 
@@ -10,7 +10,7 @@
         font-size: 15vw;
     }
 
-    .aboutBio {
+    .about__bio {
         width: 90%;
         padding-left: 0;
     }
@@ -19,7 +19,7 @@
         font-size: 15vw;
     }
 
-    .skillsContent h6 {
+    .skills__content h6 {
         font-size: 3rem;
     }
 
@@ -27,13 +27,13 @@
         font-size: 15vw;
     }
 
-    .projects .projectsContent .project {
+    .projects .projects__content .project {
         width: 40%;
     }
 }
 
 @media screen and (max-width: 450px) {
-    nav .textLinks li a {
+    nav .nav__text-links li a {
         margin: 1.4rem 0.5rem 0.5rem 0.5rem;
         padding: 0 0.5rem 0.7rem 0.5rem;
     }
@@ -51,7 +51,7 @@
         width: auto;
     }
 
-    .projects .projectsContent .project {
+    .projects .projects__content .project {
         width: 70%;
     }
 }
