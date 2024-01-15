@@ -83,16 +83,6 @@ h1 {
     text-shadow: 5px 5px var(--greenMist);
 }
 
-.skills__content h6 {
-    font-family: 'Pixels', 'Georgia';
-    font-weight: lighter;
-    font-size: 4rem;
-    line-height: 50%;
-    color: var(--silver);
-    margin: 2rem;
-    text-align: center;
-}
-
 .projects h2 {
     text-align: center;
     font-weight: lighter;
