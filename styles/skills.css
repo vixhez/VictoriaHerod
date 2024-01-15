@@ -18,3 +18,13 @@
     align-content: center;
     margin: 3rem;
 }
+
+.skills__content .skills__tech {
+    font-family: 'Pixels', 'Georgia';
+    font-weight: lighter;
+    font-size: 3rem;
+    line-height: 50%;
+    color: var(--silver);
+    margin: 2rem;
+    text-align: center;
+}
